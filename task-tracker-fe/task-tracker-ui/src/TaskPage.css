@@ -1,0 +1,30 @@
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+.add-task {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+li {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f2f2f2;
+}

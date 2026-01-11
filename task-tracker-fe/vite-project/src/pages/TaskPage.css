@@ -1,0 +1,84 @@
+.task-page {
+  min-height: 100vh;
+  background: #0b0b0b;
+  color: white;
+  padding: 40px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-bar {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.add-bar input,
+.add-bar select,
+.add-bar button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.add-bar input,
+.add-bar select {
+  background: #1f1f1f;
+  color: white;
+}
+
+.add-bar button {
+  background: #1677ff;
+  color: white;
+  cursor: pointer;
+}
+
+.card {
+  background: #1b1b1b;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.task-row {
+  display: grid;
+  grid-template-columns: 40px 1fr 120px 120px 80px;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.task-row:last-child {
+  border-bottom: none;
+}
+
+.priority-low { color: #4caf50; }
+.priority-medium { color: #ff9800; }
+.priority-high { color: #f44336; }
+
+.progress {
+  height: 10px;
+  background: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #1677ff;
+  transition: 0.3s;
+}
+
+.delete-btn {
+  background: #ff3b3b;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
